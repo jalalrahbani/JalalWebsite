@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CellTrack Official - Cell Migration Analysis Tool</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about.html">About</a></li>
+                <li><a href="../../cv.html">CV</a></li>
+                <li><a href="../../publications.html">Publications</a></li>
+                <li><a href="../../projects.html">Projects</a></li>
+                <li><a href="../../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>CellTrack Official</h1>
+            <p class="subtitle">Advanced Cell Migration Analysis Tool</p>
+
+            <div class="tool-container">
+                <div class="tool-info">
+                    <h2>About This Tool</h2>
+                    <p>CellTrack Official is a comprehensive cell migration analysis tool designed for processing and analyzing cell tracking data from time-lapse microscopy experiments. This tool provides advanced statistical analysis, interactive visualizations, and export capabilities for research applications.</p>
+
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li><strong>Excel File Processing:</strong> Handle multiple sheets with different experimental conditions</li>
+                        <li><strong>Advanced Cell Tracking Analysis:</strong> Calculate speed, directionality, persistence, and more</li>
+                        <li><strong>Statistical Comparisons:</strong> Compare different experimental conditions</li>
+                        <li><strong>Interactive Visualizations:</strong> Plot metrics and generate publication-ready figures</li>
+                        <li><strong>Export Results:</strong> Save analysis results with color-coded Excel output</li>
+                        <li><strong>Multi-track Analysis:</strong> Process multiple cell tracks simultaneously</li>
+                    </ul>
+
+                    <h3>Technology Stack</h3>
+                    <ul>
+                        <li><strong>Python:</strong> Core programming language</li>
+                        <li><strong>Streamlit:</strong> Web application framework</li>
+                        <li><strong>Pandas:</strong> Data manipulation and analysis</li>
+                        <li><strong>NumPy:</strong> Numerical computations</li>
+                        <li><strong>Matplotlib & Seaborn:</strong> Data visualization</li>
+                        <li><strong>SciPy:</strong> Statistical analysis</li>
+                        <li><strong>OpenPyXL:</strong> Excel file handling</li>
+                    </ul>
+
+                    <h3>Analysis Metrics</h3>
+                    <ul>
+                        <li><strong>Total Distance:</strong> Cumulative distance traveled by cells</li>
+                        <li><strong>Net Displacement:</strong> Straight-line distance from start to end</li>
+                        <li><strong>Average Speed:</strong> Mean velocity of cell movement</li>
+                        <li><strong>Directionality Ratio:</strong> Net displacement / total distance</li>
+                        <li><strong>Persistence Time:</strong> Time spent moving in consistent direction</li>
+                        <li><strong>Mean Squared Displacement (MSD):</strong> Measure of cell motility</li>
+                    </ul>
+
+                    <h3>How to Use</h3>
+                    <ol>
+                        <li><strong>Upload Data:</strong> Use the file uploader to select your Excel file with cell tracking data</li>
+                        <li><strong>Set Parameters:</strong> Adjust pixel size and analysis options</li>
+                        <li><strong>Run Analysis:</strong> Click "Start Analysis" to process your data</li>
+                        <li><strong>View Results:</strong> Explore interactive visualizations and statistics</li>
+                        <li><strong>Download Data:</strong> Export your analysis results</li>
+                    </ol>
+
+                    <h3>Required Data Format</h3>
+                    <p>Your Excel file should contain these columns:</p>
+                    <ul>
+                        <li><strong>track number:</strong> Cell identifier</li>
+                        <li><strong>slice number:</strong> Time point</li>
+                        <li><strong>X coordinate:</strong> X position</li>
+                        <li><strong>Y coordinate:</strong> Y position</li>
+                        <li><strong>time (min):</strong> Time in minutes</li>
+                    </ul>
+                    <p>Multiple sheets can represent different experimental conditions.</p>
+
+                    <h3>Technical Support</h3>
+                    <p>For technical support or questions about this tool:</p>
+                    <ul>
+                        <li><strong>Email:</strong> <a href="mailto:jalal.rahbani@hotmail.com">jalal.rahbani@hotmail.com</a></li>
+                        <li><strong>GitHub:</strong> <a href="https://github.com/jalalrahbani" target="_blank">@jalalrahbani</a></li>
+                        <li><strong>Website:</strong> <a href="https://jalalrahbani.github.io/-jalal-website/" target="_blank">Personal Website</a></li>
+                    </ul>
+                </div>
+
+                <div class="tool-iframe-container">
+                    <h2>Launch Interactive Tool</h2>
+                    <p>Click the button below to open the CellTrack Official tool in a new window:</p>
+                    <a href="https://celltrack-official-jalalrahbani.streamlit.app" target="_blank" class="launch-button">
+                        🚀 Launch CellTrack Official
+                    </a>
+                    
+                    <!-- Placeholder for iframe (will be updated after deployment) -->
+                    <div class="tool-iframe-placeholder">
+                        <p><em>Interactive tool will be embedded here after deployment</em></p>
+                        <p>For now, use the launch button above to access the tool.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="back-link">
+                <a href="../../projects.html">← Back to Projects</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Jalal Al Rahbani. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
