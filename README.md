@@ -74,14 +74,14 @@ JALALWEBSITE/
 - **Purpose**: Advanced cell migration analysis from time-lapse microscopy
 - **Features**: Excel processing, comprehensive statistical analysis, multiple visualization types, advanced metrics
 - **Technology**: Python, Streamlit, Pandas, NumPy, Matplotlib, SciPy, OpenPyXL
-- **Live Demo**: [Streamlit App](https://celltrack-official-jalalrahbani.streamlit.app)
+- **Live Demo**: [Streamlit App](https://celltrack-jalal.streamlit.app)
 - **Desktop App**: Tkinter-based native application with full features and real-time analysis
 
 ### 3D Cell Analysis Tool
 - **Purpose**: 3D image processing and ML segmentation for biological volumes
 - **Features**: Advanced segmentation methods, interactive ROI selection, 3D visualization, surface management
 - **Technology**: Python, Streamlit, VTK, OpenCV, scikit-learn, tifffile, scikit-image
-- **Live Demo**: [Streamlit App](https://3d-tool-jalal-jalalrahbani.streamlit.app)
+- **Live Demo**: [Streamlit App](https://3dtool-jalal.streamlit.app)
 - **Desktop App**: PyQt5-based native application with full features and GPU acceleration
 
 ## 👨‍💻 About Me
@@ -111,5 +111,6 @@ JALALWEBSITE/
 This project is open source.
 
 ---
+
 
 *Developed with ❤️ for the research community* 
