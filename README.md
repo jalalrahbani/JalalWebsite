@@ -4,7 +4,7 @@ Welcome to my personal website showcasing my work as a Research Scientist, BioDa
 
 ## 🌐 Live Website
 
-**Main Website**: [https://jalalrahbani.github.io/-jalal-website/](https://jalalrahbani.github.io/-jalal-website/)
+**Main Website**: https://jalalrahbani.github.io/JalalWebsite/
 
 ## 📋 Website Structure
 
@@ -114,3 +114,4 @@ This project is open source.
 
 
 *Developed with ❤️ for the research community* 
+
